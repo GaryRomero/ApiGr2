@@ -1,0 +1,23 @@
+{
+  "name": "apigr2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaryRomero/ApiGr2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaryRomero/ApiGr2/issues"
+  },
+  "homepage": "https://github.com/GaryRomero/ApiGr2#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
