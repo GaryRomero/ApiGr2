@@ -10,6 +10,8 @@ const routes = require('./routes');
 //Conexion con BBDD
 require('./config/db')
 
+app.use(express.json());
+
 //Rutas
 app.use('/',routes);
 
